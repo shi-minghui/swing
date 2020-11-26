@@ -20,13 +20,11 @@ public class App {
                 if (e.getKeyCode()==KeyEvent.VK_ENTER){
                     if (textArea_A.getText().equals("我")){
                         textArea_B.setText("是的，您世界上最美丽的人");
-                    }else if (e.getKeyCode()==KeyEvent.VK_DOWN){
-                        textArea_B.setText("");
                     }else {
                         textArea_B.setText("不是的");
                     }
                 }
-                }
+            }
         });
     }
     //显示窗体方法
