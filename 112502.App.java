@@ -9,6 +9,7 @@ public class App {
     JLabel label_txt=new JLabel();
     JTextArea textArea_A=new JTextArea();
     JTextArea textArea_B=new JTextArea();
+    
 
     //构造方法
     public App() {
